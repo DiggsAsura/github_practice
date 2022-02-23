@@ -12,6 +12,7 @@ any conflicting code from being merged. In the following lesson, we'll take a
 deeper look at each of these steps. 
 
 
+
 2. Managing branches:
 =======================
 
@@ -42,4 +43,23 @@ carlos_feature_dashboard_notifications includes the author, branch type, and a
 short branch description. Other teams may pick branch names to correspond to ticket
 numbers from their project management tool. 
 
+
+
+3. Adding and Commiting Changes
+==================================
+
+Let's assume you were recently assigned to a team to develop a feature for an app.
+You clone (download) the entire app repository from GitHub and create a branch
+for your feature of the main branch, and begin coding a new file in your local 
+Git environment. 
+
+After testing your code and ensuring that everything is running correctly, it's 
+time to push those changes with a commit!
+
+As a refresher, the git commit command records changes to one or more files in your 
+branch, assigning the commit a unique ID that identifies who created the changes,
+what changes were created, and when the changes were created.
+
+You can commit along with a message describing your work, and lastly, push the 
+commit to the remote Github repository. 
 

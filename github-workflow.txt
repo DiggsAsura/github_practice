@@ -1,5 +1,5 @@
-1. Basic GitHub workflow
-============================
+1. Basic GitHub workflow:
+===========================
 
 1. Create a branch
 2. Commit changes
@@ -45,7 +45,7 @@ numbers from their project management tool.
 
 
 
-3. Adding and Commiting Changes
+3. Adding and Commiting Changes:
 ==================================
 
 Let's assume you were recently assigned to a team to develop a feature for an app.
@@ -62,4 +62,30 @@ what changes were created, and when the changes were created.
 
 You can commit along with a message describing your work, and lastly, push the 
 commit to the remote Github repository. 
+
+
+
+4. Creating a Pull Request:
+=============================
+
+At this point, your work is ready to be reviewed before it's integrated into the
+official project. 
+
+Pull Requests on GitHub allow collaborators to review and give feedback on 
+proposed code changes before they are merged to the main branch. Through a process
+of discussion and potentially some extra code changes, the pull request can be
+ultimately approved, which means you can merge the changes into the official 
+project on the main branch. 
+
+When create pull requests, it's imperative that you include as much relevant
+detail in the description as possible in order to save review time. Add any comments
+or images that might be useful for your reviewer.
+
+It's also important to ensure that your code is running properly with the updated 
+repository in order to prevent anything from crashing. Lastly, you don't want to 
+submit a pull request with 50 files containing a plethora of changes, instead, stick
+to smaller-sized pull requests since they're easier and faster to review. 
+
+
+
 

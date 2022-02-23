@@ -1,0 +1,48 @@
+1. What are the Major steps in the Github flow?
+
+1. Work on a specific branch												OK
+2. Commit changes and push code to remote rep				OK
+3. Create pull request															OK
+4. Discuss pull requests with reviewers 					 	OK
+5. Merge branch once pull request accepted 				 	OK
+
+
+---
+
+
+4. Complete the Git commands steps in order to push code changes from your local
+repository to the remote repository on GitHub.
+
+1. git add
+2. git commit -m "..."
+3. git push
+
+
+---
+
+
+7. What's the general process of reviewing a pull request?
+
+1. Read the pull request description								OK
+2. Comment on lines of code that need feedback			OK
+3. Submit review              											OK
+4. Take a look again, repeat if needed							OK
+
+If you've request changes from the author, this is the part where you come
+back to the pull request!
+
+
+---
+
+
+8. What are the steps (in order) to successfully create and merge a pull request?
+
+1. Submit pull requests with description						OK
+2. Make changes from feedback												OK
+3. Merge code																				OK
+
+
+---
+
+
+

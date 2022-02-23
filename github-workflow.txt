@@ -117,3 +117,29 @@ merged into main!
 
 
 
+6. Deleting a Branch and Review: 
+==================================
+
+Once changes are merged, in order to keep things organized and managed, it's 
+imperative to only keep active branches and delete the closed ones. 
+
+With that in place, this wraps up the flow of working on a project using GitHub. 
+We have explored:
+
+	* The importance of createing branches and isolating work from the main branch.
+	
+	* Best Practices of naming branches and making commits on branches.
+	
+	* What a pull request is: a discussion page for a set of code changes between
+		one branch and another.
+		
+	* Merging a branch and delete it once it's merged. 
+	
+This covers the main steps of working with a team and managing the workflow using
+GitHub.
+
+GitHub provides us with a number of useful tools that expand on Git functionality,
+especially if we're collaborating with teammates!
+
+
+

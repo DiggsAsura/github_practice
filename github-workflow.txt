@@ -1,4 +1,5 @@
-Basic GitHub workflow
+1. Basic GitHub workflow
+============================
 
 1. Create a branch
 2. Commit changes
@@ -11,7 +12,9 @@ any conflicting code from being merged. In the following lesson, we'll take a
 deeper look at each of these steps. 
 
 
-Managing branches:
+2. Managing branches:
+=======================
+
 Whenever we're working on a team createing multiple versions of a project code,
 it's important to isolate each teamate's work in order to avoid any conflicts.
 With Git, each teammate can create their own branch off the main project in order

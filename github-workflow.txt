@@ -88,4 +88,32 @@ to smaller-sized pull requests since they're easier and faster to review.
 
 
 
+5. Reviewing and Merging a Pull Request:
+==========================================
+
+Once you've created a pull request, other members in your team can review it 
+up on GitHub. 
+
+The pull request should include a description and GitHub will display all the 
+files with the changes createad. Each line of code will have a clickable "+"
+button where you can add a comment in regards to the line. 
+
+While reviewing, it's important to be constructive with feedback and be precise
+about what needs to be changed. Here are a few best practices when reviewing 
+code: 
+
+	* Don't only comment on what should be changed, but why it should be changed.
+		Feel free to provide resource to make your point.
+		
+	* Be as clear as possible with your comments and make sure to be clear as 
+		to what to modify. 
+		
+	* Look at the bigger picture and try to spot potential errors. Would the 
+		submitted code produce any obstacles if the project scales?
+		
+Once all the feedback is added, collaborators can click on "Submit Review" and 
+wait for a response. If all goes well, the pull request will eventually be 
+merged into main!
+
+
 

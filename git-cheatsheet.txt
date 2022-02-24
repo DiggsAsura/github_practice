@@ -1,0 +1,46 @@
+Basic Git Workflow
+1. Basic Git Workflow
+
+git init        	   	  			(created a new Git reposityroy)
+git status   									(inspects the contents of the working direcotry and the 
+															 staging area)
+git add filename1 filename2		(adds files from the working directory to the staging area)
+git diff   						  			(shows the difference between the working directory and the 
+															 staging area)
+git commit -m "message" 	  	(permanently stores file changes from the staging area in 
+															 the repository. remember, message is important!)
+git log   								  	(shows a list of all previous commits)
+git show HEAD               	(shows in green what's last added to the commit)
+git checkout HEAD filename  	(Discards changes in the working directory. To get files 
+															 in the current workplace synced up with the head)
+git reset HEAD filename     	(Unstages file changes in the staging area.)
+git reset commit_SHA					(This command works by using the first 7 characters of 
+															 the SHA of a previous commit. Fox example, if the SHA
+															 of the previous commit is 				
+															 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba,
+															 use git reset 5d69206)
+git stash                  	 ("Freeze" the current work directory, without commiting?)
+git stash pop									("Get back to your stashed code")
+git commit --amend          	("Update without making a new commit)
+git commit --amend --no-edit  (Same as above, but with no new message)
+
+git push -u origin master       (push to GitHub)
+
+Also note Aliases
+$ git config --global alias.co "checkout"
+$ git config --global alias.br "branch"
+$ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
+
+Once the aliases are configured, next time you want to check out to another branch you could type the command:
+$ git co example_branch
+instead of
+$ git checkout example_branch
+
+
+
+git branch										(check which branch i'm currently on)
+git branch new_branch         (create a new branch out of the current im on)
+git checkout branch_name			(switch to the other branch)
+git merge branch_name					(merge the branches)
+git branch -d branch_name 		(delete branch, which you always should do after merge)
+

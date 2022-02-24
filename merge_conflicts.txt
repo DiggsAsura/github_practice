@@ -1,0 +1,34 @@
+Merge conflicts
+
+If trying to merge two branches which both have changed the same lines:
+
+Git uses markings to indicate the HEAD (master/main) version of the file and the
+fencing (branch_name) version of the file like this:
+
+WORK EXPERIENCE
+Leader - Lost Boys
+Neverland, 5th Star to Right, Straight on 'Til Morning
+Duties:
+-Manage Lost Boys
+-Consult with Winged Sprites
+<<<<<<< HEAD
+-Engage in swordfights with professional pirates
+=======
+-Engage in swordfights with professional pirates such as Smee. 
+>>>>>>> fencing
+-------------------
+
+VOLUNTEER EXPERIENCE
+
+
+Git basically asks us which version we want to proceed with. 
+
+In the example, we want to proceed with the one added in "fencing" (branch_name)
+
+Delete the content of the line as it appears in the master/main branch
+
+Delete all of Git's special markings including the words HEAD and fencing
+(branch_name). If any of Git's markings remain, for example, >>>>>> and ======, 
+the conflict remains!
+
+Go on to solve on main/master, git add and commit (and push)

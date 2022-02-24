@@ -1,2 +1,5 @@
 Will this be in my working directory even if i change back to main branch?
 ups, forgot to commit
+
+
+testing fix merge conflicts (here on testing_branchthingy)

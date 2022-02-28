@@ -25,6 +25,7 @@ git commit --amend          	("Update without making a new commit)
 git commit --amend --no-edit  (Same as above, but with no new message)
 
 git push -u origin master       (push to GitHub)
+git push origin your_branch_name
 
 Also note Aliases
 $ git config --global alias.co "checkout"
@@ -43,4 +44,30 @@ git branch new_branch         (create a new branch out of the current im on)
 git checkout branch_name			(switch to the other branch)
 git merge branch_name					(merge the branches)
 git branch -d branch_name 		(delete branch, which you always should do after merge)
+git branch -D branch_name     (delete un-merged branches)
+
+
+git clone remote_location clone_name
+git remote -v									(See list of Git project's remotes)
+git fetch											(get updated file from projets origin/remote)
+
+Note, after fetch, even though we grabbed updates -it have not overwritten anything
+in our own working directory. 
+git merge origin/main to push changes into local directory
+
+
+How to Use Git Rebase
+========================
+
+git rebase                     (an option to merge. say quick_fix happens during new_feature, where quick_fix is merged back to main branch before new_feature is ready????)
+
+Git rebase: Reapplies commits on top of another base branch.
+Git merge: joins two or more development histories together (creating a new merge commit).
+
+Merge can end up in messy commit log, while rebase reconstucts it and keeps it linear.
+
+Generally, it’s useful to use merge whenever we want to add changes of a branch back into the base branch. And rebase is useful whenever we want to add changes of a base branch back to a branched out branch. 
+
+Git rebase can be a very powerful tool when working with numerous people and branches, if used correctly it allows everyone to view a very clean commit history and track what commits fixed given defects or whether or not a commit was included in a release. However, it’s critical to understand how it works and the risks that come with it since it’s a destructive operation. If done so correctly, it can result in a very fluid and effective workflow.
+
 
